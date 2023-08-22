@@ -4,4 +4,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :users, only: [:index, :create, :destroy]
+
+  # add cookies route
+  get '/cookies', to: 'sessions#index'
+    
+  # user login
+  post '/login', to: 'sessions#create'
+
+  delete '/logout', to: 'sessions#destroy'
 end

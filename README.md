@@ -67,3 +67,8 @@ A login/signup page that will allow users to view some content after signing up 
 ```
     201 created
 ```
+* The following image demonstrates the application functionality on the frontend:
+User signup:
+<img src ="./signup.png">
+Login page:
+<img src ="./login.png">

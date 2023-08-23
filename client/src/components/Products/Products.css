@@ -1,0 +1,69 @@
+#products{
+    overflow-x: hidden;
+}
+/* .....................colored backgrounds............................. */
+#logo-card, #graph-db, #enterprise-ed, #card-body{
+    background-color: rgb(243, 246, 251);
+    height: 50vh;
+    padding: 5%;
+    box-shadow: none;
+}
+#main{
+    padding: 5%;
+}
+/* ......................logo...................... */
+#why{
+    /* font-size: 5em; */
+    letter-spacing: 4px;
+}
+/* #graph-title{
+    font-size: 3em;
+} */
+.cypher{
+    font-size: 2em;
+}
+#cypher-title{
+    color: #0492C2;
+}
+#sql-shot{
+    background-color: rgba(0, 0, 0, 0.822);
+    /* max-width: 100%; */
+    padding: 3%;
+}
+#red{
+    color: red;
+}
+#purple{
+    color: rebeccapurple;
+}
+#white{
+    color: white;
+}
+#blue{
+    color: #0099ff;
+}
+#btn {
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border: 2px solid black;
+    transition: color 0.3s, border-color 0.3s, transform 0.3s;
+  }
+  
+  #btn:hover {
+    color: #fac433;
+    border-color: #fac433;
+    transform: translateY(-4px);
+  }
+
+
+  #enterprise-ed, #card-body{
+    height: fit-content;
+  } 
+  #heading:hover{
+    background-color: #2d6fad !important;
+  } 
+  #graph-db{
+    height: fit-content;
+  }
+  

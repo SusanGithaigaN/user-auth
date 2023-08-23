@@ -1,0 +1,11 @@
+#header-nav, .navbar-text{
+    /* background-color: black !important; */
+    /* color: white; */
+}
+.shadow-0{
+    color: black;
+}
+#dropdown{
+    background-color: white;
+    /* color: white !important; */
+}

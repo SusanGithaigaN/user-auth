@@ -1,0 +1,101 @@
+/* ............ Default colors .............. */
+.image-container, #engine{
+  background: rgb(243, 246, 251);
+}
+
+/* ............... Landing page ..........*/
+#home {
+  /* margin: 0 -25px; */
+  /* display: block; */
+  /* height: fit-content; */
+}
+
+#home-card {
+  box-shadow: none;
+  padding-bottom: 5%;
+}
+
+/* ..............Agens image container..................... */
+.image-container{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#title, #main-title {
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+}
+#title{
+  font-size: 21px;
+}
+
+/* ..................Features.................... */
+#features{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#main-title{
+  font-size: 35px;
+  margin: 2%;
+}
+
+
+#text {
+  margin: 2em;
+  font-size: 18px;
+}
+
+#btn {
+  background-color: darkblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Agens Enterprise package */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+#image-container{
+  padding: 5%;
+}
+
+/* Key Features */
+
+/* ...................AgensSQL DB Engine..................... */
+#security-cards{
+  padding-bottom: 5%;
+}
+
+/*...................... enterprise-engine...........................*/
+#engine{
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+#enterprise-engine{
+  box-shadow: none;
+}
+#cards{
+  box-shadow: inset;
+}
+#new-cards{
+  border: 2px solid #0492C2; 
+  border-radius: 10px;
+  
+}
+#card-list{
+  padding-bottom: 5%;
+  box-shadow: none;
+}
+
+/* animate cards */
+
+
+
+/* .card-list{
+  box-shadow: none;
+} */
+/* make screen responsive */

@@ -68,26 +68,17 @@ function Login() {
                             <h2 className="fw-bold mb-2 text-center">Sign in</h2>
                             <p className="text-white-50 mb-3">Please enter your login and password!</p>
 
-                            <MDBInput wrapperClass='mb-4 w-100' label='Username' id='formControlLg' size="lg" name='username' type='text' value={formData.username} onChange={handleChange}/>
-                            <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' size="lg" name='password' type='password' value={formData.password} onChange={handleChange}/>
+                            <MDBInput wrapperClass='mb-4 w-100' label='Username' id='formControlLg' size="lg" name='username' type='text' value={formData.username} onChange={handleChange} />
+                            <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' size="lg" name='password' type='password' value={formData.password} onChange={handleChange} />
 
                             <MDBCheckbox name='flexCheck' id='flexCheckDefault' className='mb-4' label='Remember password' />
-
+                            <div className='extra'>
+                                <a href="/signup">Don't have an account? Click here to sign up</a>
+                            </div>
                             <MDBBtn size='lg' type='submit' onClick={handleSubmit}>
                                 Login
                             </MDBBtn>
 
-                            {/* <hr className="my-4" />
-
-                            <MDBBtn className="mb-2 w-100" size="lg" style={{ backgroundColor: '#dd4b39' }}>
-                                <MDBIcon fab icon="google" className="mx-2" />
-                                Sign in with google
-                            </MDBBtn>
-
-                            <MDBBtn className="mb-4 w-100" size="lg" style={{ backgroundColor: '#3b5998' }}>
-                                <MDBIcon fab icon="facebook-f" className="mx-2" />
-                                Sign in with facebook
-                            </MDBBtn> */}
 
                         </MDBCardBody>
                     </MDBCard>

@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import Products from './components/Products/Products';
 import NavBar from './components/NavBar/NavBar';
 import Login from './components/Login/Login';
+import Signup from './components/Signup/Signup';
 
 const Dashboard = () => {
   return (
@@ -21,6 +22,7 @@ const Dashboard = () => {
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
       <Footer />
     </div>
